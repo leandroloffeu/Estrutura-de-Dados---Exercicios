@@ -3,7 +3,7 @@
 import datetime
 
 
-dataatual = datetime.date.today() #obtém a data atual usando a função today()
+dataatual = datetime.date.today()
 
 
 datafut
