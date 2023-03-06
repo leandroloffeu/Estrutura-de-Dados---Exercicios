@@ -2,14 +2,12 @@
 
 import datetime
 
-# Obter a data atual
+
 dataatual = datetime.date.today() #obtém a data atual usando a função today()
 
-# Adicionar dois dias à data atual
-datafutura = dataatual + datetime.timedelta(days=2)
 
-# Imprimir a data futura formatada como "dia/mês/ano"
-print("A data de dois dias no futuro é:", datafutura.strftime("%d/%m/%Y"))
+datafut
+print("A data de dois dias no futuro é:", datafutura.strftime("%d/%m
 
 #strftime("%d/%m/%Y") converte a data futura em uma string formatada no formato dia/mês/ano.
 
