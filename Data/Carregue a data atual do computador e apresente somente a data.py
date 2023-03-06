@@ -2,7 +2,7 @@
 
 import datetime
 
-dataatual = datetime.date.today() #obtém a data atual usando a função today()
-dataformatada = dataatual.strftime('%d') #strftime("%d/%m/%Y") converte a data futura em uma string formatada no formato dia/mês/ano.
+dataatual = datetime.date.today()
+dataformatada = dataatual.strftime('%d')
 
 print("A data atual é:", (dataformatada))
