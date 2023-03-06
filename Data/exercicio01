@@ -7,7 +7,5 @@ dataatual = datetime.date.today() #obtém a data atual usando a função today()
 
 
 datafut
-print("A data de dois dias no futuro é:", datafutura.strftime("%d/%m
-
-#strftime("%d/%m/%Y") converte a data futura em uma string formatada no formato dia/mês/ano.
+print("A data de dois dias no futuro é:", datafutura.strftime("%d/%
 
