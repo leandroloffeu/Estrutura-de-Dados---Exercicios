@@ -3,7 +3,7 @@
 #Caso a nova média seja igual superior a 5, apresentar a mensagem "APROVADO", caso contrário, apresentar a mensagem "REPROVADO"
 
 
-# receber as quatro notas do usuário e adicioná-las na lista
+
 notas = []  
 nota1 = float(input(f'Digite a primeira nota: '))
 notas.append(nota1)
@@ -14,15 +14,15 @@ notas.append(nota3)
 nota4 = float(input(f'Digite a primeira nota: '))
 notas.append(nota4)
 
-media = sum(notas) / len(notas)  # calcular a média das notas
+media = sum(notas) / len(notas) 
 
-if media >= 7:  # verificar se o aluno foi aprovado
+if media >= 7:  
     print("APROVADO")
 else:
     print(f'Foi para prova final com a média:',(media))
     nota_final = float(input("Digite a nota da prova final: "))
-    notas.append(nota_final)  # adicionar a nota final na lista
-    nova_media = sum(notas) / len(notas)  # recalcular a média
+    notas.append(nota_final)  
+    nova_media = sum(notas) / len(notas) 
     if nova_media >= 5:
         print("APROVADO")
     else:
