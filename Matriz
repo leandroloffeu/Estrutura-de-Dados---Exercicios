@@ -1,0 +1,31 @@
+matriz =[[1,0,0,0,0,1],
+                [0,1,0,0,1,0],
+                [0,0,1,1,0,0],
+                [0,0,1,1,0,0],
+                [0,1,0,0,1,0],
+                [1,0,0,0,0,1]]
+
+zeros = 0
+
+nao_nulos = 0
+
+posicao_nulos = []
+
+posicaoNaoNulos = []
+
+for index, lista in enumerate(matriz):
+    for index2, valor in enumerate(lista):
+        if valor == 0:
+            zeros += 1
+            posicao_nulos.append((index,index2))
+
+        else:
+            nao_nulos += 1
+            posicaoNaoNulos.append((index,index2))
+
+print(f'O total de números nulos é: {zeros}')
+print(f'O total de números não nulos é: {nao_nulos}')
+
+print(f'Posição dos nulos: {posicao_nulos}')
+
+print(f'Posição dos não nulos: {posicaoNaoNulos}')
