@@ -1,9 +1,9 @@
 matriz =[[1,0,0,0,0,1],
-                [0,1,0,0,1,0],
-                [0,0,1,1,0,0],
-                [0,0,1,1,0,0],
-                [0,1,0,0,1,0],
-                [1,0,0,0,0,1]]
+         [0,1,0,0,1,0],
+         [0,0,1,1,0,0],
+         [0,0,1,1,0,0],
+         [0,1,0,0,1,0],
+         [1,0,0,0,0,1]]
 
 zeros = 0
 
@@ -18,7 +18,6 @@ for index, lista in enumerate(matriz):
         if valor == 0:
             zeros += 1
             posicao_nulos.append((index,index2))
-
         else:
             nao_nulos += 1
             posicaoNaoNulos.append((index,index2))
